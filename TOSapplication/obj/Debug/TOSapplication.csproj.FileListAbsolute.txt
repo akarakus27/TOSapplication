@@ -1,0 +1,10 @@
+D:\TOS\TOSapplication\bin\Debug\TOSapplication.exe.config
+D:\TOS\TOSapplication\bin\Debug\TOSapplication.exe
+D:\TOS\TOSapplication\bin\Debug\TOSapplication.pdb
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.csprojAssemblyReference.cache
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.Form1.resources
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.Properties.Resources.resources
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.csproj.GenerateResource.cache
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.csproj.CoreCompileInputs.cache
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.exe
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.pdb
