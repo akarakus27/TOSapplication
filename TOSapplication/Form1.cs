@@ -266,7 +266,7 @@ namespace TOSapplication
             try
             {
                string dosyaAdi = Interaction.InputBox("Lütfen Sözleşmeye Bir İsim Veriniz!", "Sözleşme Adı", "Örn: Sozlesmeİsmi", 250, 250);
-               CreateContractDocument(@"C:\Users\yunus\Desktop\Evraklar\sozlesme.doc", @"C:\Users\yunus\Desktop\OlusturulanEvraklar\y" + dosyaAdi);
+               CreateContractDocument(@"C:\Users\yunus\Desktop\Evraklar\sozlesme.doc", @"C:\Users\yunus\Desktop\OlusturulanEvraklar\" + dosyaAdi);
             }
             catch (Exception r)
             {
@@ -281,7 +281,7 @@ namespace TOSapplication
         {
             try
             {
-                string dosyaAdi = Interaction.InputBox("Lütfen Sözleşmeye Bir İsim Veriniz!", "Sözleşme Adı", "Örn: IngilizceSozlesme", 150, 150);
+                string dosyaAdi = Interaction.InputBox("Lütfen Sözleşmeye Bir İsim Veriniz!", "İngilizce Sözleşme Adı", "Örn: IngilizceSozlesme", 150, 150);
                 CreateEnglishContractDocument(@"C:\Users\yunus\Desktop\Evraklar\ingilizcesozlesme.doc", @"C:\Users\yunus\Desktop\OlusturulanEvraklar\" + dosyaAdi);
             }
             catch (Exception r)
@@ -295,8 +295,8 @@ namespace TOSapplication
         {
             try
             {
-                string dosyaAdi = Interaction.InputBox("Lütfen Sözleşmeye Bir İsim Veriniz!", "Sözleşme Adı", "Örn: Davetiyeİsmi", 250, 250);
-                CreateInvitationDocument(@"C:\Users\yunus\Desktop\Evraklar\davetiye.doc", @"C:\Users\yunus\Desktop\" + dosyaAdi);
+                string dosyaAdi = Interaction.InputBox("Lütfen Davetiyeye Bir İsim Veriniz!", "Davetiye Adı", "Örn: Davetiyeİsmi", 250, 250);
+                CreateInvitationDocument(@"C:\Users\yunus\Desktop\Evraklar\davetiye.doc", @"C:\Users\yunus\Desktop\OlusturulanEvraklar\" + dosyaAdi);
             }
             catch (Exception r)
             {
