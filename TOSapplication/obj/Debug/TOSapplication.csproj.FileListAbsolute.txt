@@ -8,3 +8,4 @@ D:\TOS\TOSapplication\obj\Debug\TOSapplication.csproj.GenerateResource.cache
 D:\TOS\TOSapplication\obj\Debug\TOSapplication.csproj.CoreCompileInputs.cache
 D:\TOS\TOSapplication\obj\Debug\TOSapplication.exe
 D:\TOS\TOSapplication\obj\Debug\TOSapplication.pdb
+D:\TOS\TOSapplication\obj\Debug\TOSapplication.csproj.ResolveComReference.cache

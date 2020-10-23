@@ -37,6 +37,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbDogumYeri = new System.Windows.Forms.TextBox();
+            this.tbUcret = new System.Windows.Forms.TextBox();
+            this.tbYurtdisiAdres = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tbDogumTarihi = new System.Windows.Forms.TextBox();
+            this.tbPasaportNo = new System.Windows.Forms.TextBox();
+            this.tbUyruk = new System.Windows.Forms.TextBox();
+            this.tbBabaAdi = new System.Windows.Forms.TextBox();
+            this.tbAdSoyad = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -44,15 +53,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.tbAdSoyad = new System.Windows.Forms.TextBox();
-            this.tbBabaAdi = new System.Windows.Forms.TextBox();
-            this.tbUyruk = new System.Windows.Forms.TextBox();
-            this.tbPasaportNo = new System.Windows.Forms.TextBox();
-            this.cbDogumYeri = new System.Windows.Forms.ComboBox();
-            this.tbDogumTarihi = new System.Windows.Forms.TextBox();
-            this.tbYurtdisiAdres = new System.Windows.Forms.TextBox();
-            this.tbUcret = new System.Windows.Forms.TextBox();
+            this.btnSozlesme = new System.Windows.Forms.Button();
+            this.cbTemsilcilik = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label14 = new System.Windows.Forms.Label();
+            this.btnIngSozlesme = new System.Windows.Forms.Button();
+            this.btnDavetiye = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -140,11 +147,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.tbDogumYeri);
             this.groupBox2.Controls.Add(this.tbUcret);
             this.groupBox2.Controls.Add(this.tbYurtdisiAdres);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.tbDogumTarihi);
-            this.groupBox2.Controls.Add(this.cbDogumYeri);
             this.groupBox2.Controls.Add(this.tbPasaportNo);
             this.groupBox2.Controls.Add(this.tbUyruk);
             this.groupBox2.Controls.Add(this.tbBabaAdi);
@@ -162,6 +169,72 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İŞÇİNİN";
+            // 
+            // tbDogumYeri
+            // 
+            this.tbDogumYeri.Location = new System.Drawing.Point(547, 40);
+            this.tbDogumYeri.Name = "tbDogumYeri";
+            this.tbDogumYeri.Size = new System.Drawing.Size(193, 20);
+            this.tbDogumYeri.TabIndex = 12;
+            // 
+            // tbUcret
+            // 
+            this.tbUcret.Location = new System.Drawing.Point(120, 175);
+            this.tbUcret.Name = "tbUcret";
+            this.tbUcret.Size = new System.Drawing.Size(219, 20);
+            this.tbUcret.TabIndex = 11;
+            // 
+            // tbYurtdisiAdres
+            // 
+            this.tbYurtdisiAdres.Location = new System.Drawing.Point(547, 113);
+            this.tbYurtdisiAdres.Multiline = true;
+            this.tbYurtdisiAdres.Name = "tbYurtdisiAdres";
+            this.tbYurtdisiAdres.Size = new System.Drawing.Size(193, 82);
+            this.tbYurtdisiAdres.TabIndex = 14;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 182);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(33, 13);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Ücret";
+            // 
+            // tbDogumTarihi
+            // 
+            this.tbDogumTarihi.Location = new System.Drawing.Point(547, 79);
+            this.tbDogumTarihi.Name = "tbDogumTarihi";
+            this.tbDogumTarihi.Size = new System.Drawing.Size(193, 20);
+            this.tbDogumTarihi.TabIndex = 13;
+            // 
+            // tbPasaportNo
+            // 
+            this.tbPasaportNo.Location = new System.Drawing.Point(120, 138);
+            this.tbPasaportNo.Name = "tbPasaportNo";
+            this.tbPasaportNo.Size = new System.Drawing.Size(219, 20);
+            this.tbPasaportNo.TabIndex = 10;
+            // 
+            // tbUyruk
+            // 
+            this.tbUyruk.Location = new System.Drawing.Point(120, 106);
+            this.tbUyruk.Name = "tbUyruk";
+            this.tbUyruk.Size = new System.Drawing.Size(219, 20);
+            this.tbUyruk.TabIndex = 9;
+            // 
+            // tbBabaAdi
+            // 
+            this.tbBabaAdi.Location = new System.Drawing.Point(120, 72);
+            this.tbBabaAdi.Name = "tbBabaAdi";
+            this.tbBabaAdi.Size = new System.Drawing.Size(219, 20);
+            this.tbBabaAdi.TabIndex = 8;
+            // 
+            // tbAdSoyad
+            // 
+            this.tbAdSoyad.Location = new System.Drawing.Point(120, 36);
+            this.tbAdSoyad.Name = "tbAdSoyad";
+            this.tbAdSoyad.Size = new System.Drawing.Size(219, 20);
+            this.tbAdSoyad.TabIndex = 7;
             // 
             // label11
             // 
@@ -226,87 +299,99 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Baba Adı";
             // 
-            // label12
+            // btnSozlesme
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 182);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(33, 13);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "Ücret";
+            this.btnSozlesme.Location = new System.Drawing.Point(250, 454);
+            this.btnSozlesme.Name = "btnSozlesme";
+            this.btnSozlesme.Size = new System.Drawing.Size(87, 43);
+            this.btnSozlesme.TabIndex = 16;
+            this.btnSozlesme.Text = "Sözleşme Oluştur";
+            this.btnSozlesme.UseVisualStyleBackColor = true;
+            this.btnSozlesme.Click += new System.EventHandler(this.btnSozlesme_Click);
             // 
-            // tbAdSoyad
+            // cbTemsilcilik
             // 
-            this.tbAdSoyad.Location = new System.Drawing.Point(120, 36);
-            this.tbAdSoyad.Name = "tbAdSoyad";
-            this.tbAdSoyad.Size = new System.Drawing.Size(219, 20);
-            this.tbAdSoyad.TabIndex = 7;
+            this.cbTemsilcilik.FormattingEnabled = true;
+            this.cbTemsilcilik.Items.AddRange(new object[] {
+            "BANGLADEŞ",
+            "ENDONEZYA",
+            "FAS",
+            "İRAN",
+            "KAMERUN",
+            "NEPAL",
+            "RUSYA"});
+            this.cbTemsilcilik.Location = new System.Drawing.Point(132, 415);
+            this.cbTemsilcilik.Name = "cbTemsilcilik";
+            this.cbTemsilcilik.Size = new System.Drawing.Size(219, 21);
+            this.cbTemsilcilik.TabIndex = 15;
             // 
-            // tbBabaAdi
+            // label13
             // 
-            this.tbBabaAdi.Location = new System.Drawing.Point(120, 72);
-            this.tbBabaAdi.Name = "tbBabaAdi";
-            this.tbBabaAdi.Size = new System.Drawing.Size(219, 20);
-            this.tbBabaAdi.TabIndex = 8;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(21, 423);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(55, 13);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Temsilcilik";
             // 
-            // tbUyruk
+            // dateTimePicker1
             // 
-            this.tbUyruk.Location = new System.Drawing.Point(120, 106);
-            this.tbUyruk.Name = "tbUyruk";
-            this.tbUyruk.Size = new System.Drawing.Size(219, 20);
-            this.tbUyruk.TabIndex = 9;
+            this.dateTimePicker1.Location = new System.Drawing.Point(552, 412);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 17;
             // 
-            // tbPasaportNo
+            // label14
             // 
-            this.tbPasaportNo.Location = new System.Drawing.Point(120, 138);
-            this.tbPasaportNo.Name = "tbPasaportNo";
-            this.tbPasaportNo.Size = new System.Drawing.Size(219, 20);
-            this.tbPasaportNo.TabIndex = 10;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(400, 410);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(136, 26);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "Lütfen Tarihin Doğruluğunu\r\nKontrol Edin";
             // 
-            // cbDogumYeri
+            // btnIngSozlesme
             // 
-            this.cbDogumYeri.FormattingEnabled = true;
-            this.cbDogumYeri.Location = new System.Drawing.Point(547, 40);
-            this.cbDogumYeri.Name = "cbDogumYeri";
-            this.cbDogumYeri.Size = new System.Drawing.Size(193, 21);
-            this.cbDogumYeri.TabIndex = 12;
+            this.btnIngSozlesme.Location = new System.Drawing.Point(132, 454);
+            this.btnIngSozlesme.Name = "btnIngSozlesme";
+            this.btnIngSozlesme.Size = new System.Drawing.Size(98, 43);
+            this.btnIngSozlesme.TabIndex = 20;
+            this.btnIngSozlesme.Text = "İngilizce Sözleşme Oluştur";
+            this.btnIngSozlesme.UseVisualStyleBackColor = true;
+            this.btnIngSozlesme.Click += new System.EventHandler(this.btnIngSozlesme_Click);
             // 
-            // tbDogumTarihi
+            // btnDavetiye
             // 
-            this.tbDogumTarihi.Location = new System.Drawing.Point(547, 79);
-            this.tbDogumTarihi.Name = "tbDogumTarihi";
-            this.tbDogumTarihi.Size = new System.Drawing.Size(193, 20);
-            this.tbDogumTarihi.TabIndex = 13;
-            // 
-            // tbYurtdisiAdres
-            // 
-            this.tbYurtdisiAdres.Location = new System.Drawing.Point(547, 113);
-            this.tbYurtdisiAdres.Multiline = true;
-            this.tbYurtdisiAdres.Name = "tbYurtdisiAdres";
-            this.tbYurtdisiAdres.Size = new System.Drawing.Size(193, 82);
-            this.tbYurtdisiAdres.TabIndex = 14;
-            // 
-            // tbUcret
-            // 
-            this.tbUcret.Location = new System.Drawing.Point(120, 175);
-            this.tbUcret.Name = "tbUcret";
-            this.tbUcret.Size = new System.Drawing.Size(219, 20);
-            this.tbUcret.TabIndex = 11;
+            this.btnDavetiye.Location = new System.Drawing.Point(12, 454);
+            this.btnDavetiye.Name = "btnDavetiye";
+            this.btnDavetiye.Size = new System.Drawing.Size(105, 43);
+            this.btnDavetiye.TabIndex = 21;
+            this.btnDavetiye.Text = "Davetiye Oluştur";
+            this.btnDavetiye.UseVisualStyleBackColor = true;
+            this.btnDavetiye.Click += new System.EventHandler(this.btnDavetiye_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 509);
+            this.Controls.Add(this.btnDavetiye);
+            this.Controls.Add(this.btnIngSozlesme);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.cbTemsilcilik);
+            this.Controls.Add(this.btnSozlesme);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sö";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -331,12 +416,19 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox tbYurtdisiAdres;
         private System.Windows.Forms.TextBox tbDogumTarihi;
-        private System.Windows.Forms.ComboBox cbDogumYeri;
         private System.Windows.Forms.TextBox tbPasaportNo;
         private System.Windows.Forms.TextBox tbUyruk;
         private System.Windows.Forms.TextBox tbBabaAdi;
         private System.Windows.Forms.TextBox tbAdSoyad;
         private System.Windows.Forms.TextBox tbUcret;
+        private System.Windows.Forms.Button btnSozlesme;
+        private System.Windows.Forms.ComboBox cbTemsilcilik;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox tbDogumYeri;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btnIngSozlesme;
+        private System.Windows.Forms.Button btnDavetiye;
     }
 }
 
