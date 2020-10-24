@@ -22,6 +22,10 @@ namespace TOSapplication
         {
             InitializeComponent();
         }
+        string kadir = @"User\Desktop\Evraklar\";
+        string yunus = @"yunus\Desktop\Evraklar\";
+        string kadir1 = @"User\Desktop\OlusturulanEvraklar\";
+        string yunus1 = @"yunus\Desktop\OlusturulanEvraklar\";
 
         private void cbUnvan_SelectedIndexChanged(object sender, EventArgs e)
         {
